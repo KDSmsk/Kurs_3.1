@@ -7,7 +7,6 @@ import transction_obj as tr_obj
 if __name__ == '__main__':
     path1 = "operations"
     file_name = "operations.json"
-    # Считали файл json
     dictionary_data = load_json_from_file(path1, file_name)
     # Создаем список из объектов и заполняем параметры для объекта
     Dict_objs = []
